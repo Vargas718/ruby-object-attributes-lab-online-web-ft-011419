@@ -4,12 +4,22 @@ class Person
   @name = new_name 
 end
 
-def name
+def name # reader method
+
   @name
+
 end
-def job=(job_title)
+
+def job=(job_title) # writer method
+ 
   @job = job_title 
   
+end
+
+def job # reader method 
+
+  @job 
+
 end
 
   
